@@ -1,5 +1,6 @@
 package org.example;
 
+import tasks.LongestPalindromicSubstring;
 import tasks.PalindromeNumber;
 import tasks.RomanToInteger;
 import tasks.ValidParentheses;
@@ -8,7 +9,7 @@ import tasks.ValidParentheses;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(PalindromeNumber.isPalindrome(121));
+        System.out.println(LongestPalindromicSubstring.longestPalindrome("шалаш"));
     }
 }
 
